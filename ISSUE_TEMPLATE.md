@@ -10,7 +10,7 @@ Make sure you have provided the following information:
 
 
 ###### What organization or people are asking to have this signed:
-The company is called cpsd (https://www.cpsd.at/)
+The company is called cpsd (https://www.cpsd.at/), located in Austria. We're working in the field of IT security, with our main focus on full disk encryption.
 
 ###### What product or service is this for:
 The pre-boot authentication environment for our company's Full Disk Encryption CryptoPro Secure Disk (see https://www.cpsd.at/)
@@ -34,7 +34,7 @@ see below
 shim loads a self-developed boot component which does all further authorization/os loading stuff.
 
 ###### How do the launched components prevent execution of unauthenticated code?
-All boot components must be signed
+Our boot component does not load any unsigned binaries.
 
 ###### Does your SHIM load any loaders that support loading unsigned kernels (e.g. GRUB)?
 No
@@ -43,7 +43,7 @@ No
 N/A
 
 ###### What changes were made since your SHIM was last signed?
-upgraded from shim-0.8 to shim-15
+Upgraded from shim-0.8 to shim-15
 
 ###### What is the hash of your final SHIM binary?
 44ed00a46d11e631f334f8cfc3747b02b53e0e48b89e9641a0e4a1775f3121e1  shim-15-SCF-unsigned.efi
