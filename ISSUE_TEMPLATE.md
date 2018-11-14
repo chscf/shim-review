@@ -46,4 +46,4 @@ N/A
 upgraded from shim-0.8 to shim-15
 
 ###### What is the hash of your final SHIM binary?
-24f479c09496fe953b4187dbbf14e32f8c3bdbe458ad41244289dc486e638906  shim-15-SCF-unsigned.efi
+44ed00a46d11e631f334f8cfc3747b02b53e0e48b89e9641a0e4a1775f3121e1  shim-15-SCF-unsigned.efi
