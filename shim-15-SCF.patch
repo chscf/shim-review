@@ -1,6 +1,22 @@
-diff -cr shim-15/Make.defaults shim-15-patched/Make.defaults
 *** shim-15/Make.defaults	2018-04-05 20:49:17.000000000 +0200
---- shim-15-patched/Make.defaults	2018-10-31 09:31:26.569637297 +0100
+--- shim-15-ok/Make.defaults	2018-11-06 09:28:35.202143382 +0100
+***************
+*** 68,74 ****
+  		   $(CLANG_BUGS) -m64 \
+  		   -DEFI_FUNCTION_WRAPPER -DGNU_EFI_USE_MS_ABI \
+  		   -DNO_BUILTIN_VA_FUNCS -DMDE_CPU_X64 -DPAGE_SIZE=4096
+! 	LIBDIR			?= $(prefix)/lib64
+  	ARCH_SUFFIX		?= x64
+  	ARCH_SUFFIX_UPPER	?= X64
+  	ARCH_LDFLAGS		?=
+--- 68,74 ----
+  		   $(CLANG_BUGS) -m64 \
+  		   -DEFI_FUNCTION_WRAPPER -DGNU_EFI_USE_MS_ABI \
+  		   -DNO_BUILTIN_VA_FUNCS -DMDE_CPU_X64 -DPAGE_SIZE=4096
+! 	LIBDIR			?= $(prefix)/lib
+  	ARCH_SUFFIX		?= x64
+  	ARCH_SUFFIX_UPPER	?= X64
+  	ARCH_LDFLAGS		?=
 ***************
 *** 102,108 ****
   endif
